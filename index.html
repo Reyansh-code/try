@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Book Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: green;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: green;
+            padding: 14px;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: navy;
+            font-weight: bold;
+        }
+        .content {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 2px;
+            height: 400px;
+        }
+        .sidebar {
+            background-color: lightgray;
+            width: 25%;
+            padding: 10px;
+        }
+        .sidebar a{
+            display: block;
+            margin: 15px 0;
+            padding: 8px;
+        }
+        .main {
+            background-color: orange;
+            width: 70%;
+            display: flexbox;
+            padding: 20px;
+            text-align: center;
+        }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        .book-image {
+            width: 300px;
+            height: 200px;
+            
+        }
+        h1 {
+            color: gray;
+            background-color: yellow;
+            padding: 12px;
+            display: inline-block;
+            width: 60%;
+            margin-bottom: 4px;
+            border-radius: 45px;
+        }
+        .head-img {
+            width: 100px;
+            height: auto;
+            float: left;
+            mix-blend-mode: multiply;
+        }
+        .head-img2 {
+            width: 100px;
+            height: auto;
+            float: right;
+            mix-blend-mode: multiply;
+        }
+        h2 {
+            color: blue;
+            font-size: 15px;
+        }
+        p {
+            color: red;
+            font-style: italic;
+            font-family: cursive;
+            font-size: 25px;
+        }
+        .m1 {
+            color: white;
+            font-family: 'arial';
+            align-content: top;
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img class="head-img" src="logo1.jpg" alt="Logo">
+    <h1>Online Book Store</h1>
+    <img class="head-img2" src="logo2.jpg" alt="Logo">
+    <p class="m1">Created & Maintained By MRCET</p>
+</header>
+
+<nav>
+    <a href="#">HOME</a>
+    <a href="login.html">LOGIN</a>
+    <a href="register.html">REGISTER</a>
+    <a href="catalog.html">CATALOGUE</a>
+</nav>
+
+<div class="content">
+    <div class="sidebar">
+        <ul>
+            <li><a href="#">CSE</a></li>
+            <li><a href="#">ECE</a></li>
+            <li><a href="#">EEE</a></li>
+            <li><a href="#">MECH</a></li>
+        </ul>
+    </div>
+    <div class="main">
+        <div class="image-container">
+        <img class="book-image" src="books.jpg" alt="Books"> </div>
+        <h2>Welcome to the Online Book Store!!!</h2>
+        <p>"A Huge Collection Of Engineering E-Books"</p>
+    </div>
+</div>
+
+</body>
+</html>
